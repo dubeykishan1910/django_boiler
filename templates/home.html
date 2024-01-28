@@ -1,9 +1,14 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block title %}home{% endblock %}
 
 {% block content %}
 
 <div class="home">home</div>
+
+<div class="intro-banner-wrap">
+	<img src="{% static 'images/banners/1.jpg' %}" class="img-fluid rounded">
+</div>
 
 {% endblock %}

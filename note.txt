@@ -1,0 +1,46 @@
+for app
+python manage.py startapp app_name
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py createsuperuser
+
+
+
+
+
+
+
+
+Block declarations
+{% block body %} ... {% endblock %}
+
+content import
+{% include "navbar.html" %}
+
+inheritance   
+{% entends "base.html" %}
+
+
+for loop
+{% for x in y %} ... {% endfor %}
+
+{% if %} ... {% else %} ... {% endif %}
+
+
+
+tamplates variable
+{{ }}
+
+
+
+
+
+
+bootswatch
+
+fa-lg    = icon large
+<ul class="list-unstyled"> =remove default list style
+<li>
